@@ -1,0 +1,9 @@
+---
+applications:
+- name: myapp
+  random-route: true
+  path: ./
+  memory: 1024M
+  buildpacks:
+  - python_buildpack
+  command: python test.py
